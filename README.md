@@ -1,6 +1,6 @@
 # Medical Insurance Cost Prediction
 
-This project predicts medical insurance costs using regression models on the [Medical Insurance Dataset](https://www.kaggle.com/datasets/teertha/us-insurance) (age, sex, BMI, children, smoker, region). It demonstrates end-to-end workflow in Python including data preprocessing, feature encoding, model training, and evaluation.
+This project predicts medical insurance costs using regression models on the [Medical Insurance Dataset](https://www.kaggle.com/datasets/rahulvyasm/medical-insurance-cost-prediction) (age, sex, BMI, children, smoker, region). It demonstrates end-to-end workflow in Python including data preprocessing, feature encoding, model training, and evaluation.
 
 ---
 
@@ -21,7 +21,7 @@ This project predicts medical insurance costs using regression models on the [Me
 
 - Python 3.x
 - Pandas, NumPy
-- Matplotlib, Seaborn
+- Matplotlib
 - Scikit-learn (`LinearRegression`, `Lasso`, `StandardScaler`, `train_test_split`, `cross_val_score`, `cross_val_predict`)
 
 ---
@@ -66,14 +66,3 @@ This project predicts medical insurance costs using regression models on the [Me
 - Cross-validation gives a more reliable estimate of model performance than a single train/test split.  
 
 ---
-
-## 🖥️ How to Run
-
-1. Clone the repository:  
-```bash
-git clone <your-repo-link>
-
-2. Install required libraries:
-pip install pandas numpy matplotlib scikit-learn
-
-3. Run the Jupyter Notebook to explore the project and reproduce results
