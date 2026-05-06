@@ -4,7 +4,7 @@ This project predicts medical insurance costs using regression models on the [Me
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - The dataset contains the following columns:
   - `age`: Age of the individual
@@ -17,7 +17,7 @@ This project predicts medical insurance costs using regression models on the [Me
 
 ---
 
-## 🛠️ Tools & Libraries
+## Tools & Libraries
 
 - Python 3.x
 - Pandas, NumPy
@@ -26,7 +26,7 @@ This project predicts medical insurance costs using regression models on the [Me
 
 ---
 
-## 📊 Project Workflow
+## Project Workflow
 
 1. **Exploratory Data Analysis (EDA)**
    - Checked dataset shape, missing values, duplicates
@@ -48,7 +48,7 @@ This project predicts medical insurance costs using regression models on the [Me
 
 ---
 
-## 📈 Results
+## Results
 
 - **Linear Regression R² (train/test split):** 0.746  
 - **Linear Regression R² (5-fold cross-validation):** 0.750  
@@ -58,7 +58,7 @@ This project predicts medical insurance costs using regression models on the [Me
 
 ---
 
-## 📌 Insights
+## Insights
 
 - **Smoker status** has the largest impact on insurance charges.  
 - Linear Regression performs well with scaled features and one-hot encoding.  
